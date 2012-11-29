@@ -1,0 +1,76 @@
+@import "compass/reset";
+
+// * { outline: 1px dotted grey; }
+
+body {
+      font-size:100%;
+      font-family: Helvetica, Arial, sans-serif;
+      line-height:1.6;
+      padding:0 10px;
+}
+
+a { text-decoration: none; }
+
+#pageWrap {
+      width:100%;
+      float:left;
+  
+}
+
+header {
+
+      text-align:center;
+
+      h1 {
+            font-size:4em;
+      }
+
+      h2{
+            font-size:2em;
+      }
+
+      ul {
+            margin-top:1.5em;
+      }
+
+}
+
+#projects {
+     
+      //outline:1px solid red;
+
+      .wrap {
+            //display:inline-block; //does not works! will not shrinkwrap when children wra[]
+            background-color:yellow;
+            outline:1px solid green;
+            float:left;
+            section {
+                  margin:0 10px 0em 10px;
+                  width:220px;
+                  float:left;
+                
+                  img {          
+
+                        height:391px;
+                        margin-bottom:.75em;
+                  }
+                  
+                  h1 {  margin-bottom:.25em; }
+
+                  p { font-size:.8em; }
+
+            }
+      }
+      .breaker {
+            //position:relative;
+            left:0;
+            clear:right;
+            //width:2000px;
+            height:60px;
+            background-color:green;
+
+      }
+
+}
+
+
